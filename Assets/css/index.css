@@ -6,19 +6,20 @@ body {
 
 
 
-.box_start {
-    margin-top: 50px;
-}
 
 .clearfix {
-    margin: 20px;
-    
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+
 }
 
 
-.box_bv  {
-    background-color: rgb(255, 0, 51);
-    
-    
+.btn {
+    background-color: crimson;
 }
 
+
+#h {
+    background-color: #111320;
+}

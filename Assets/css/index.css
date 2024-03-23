@@ -29,17 +29,13 @@ body {
     }
 }
 
-@media (max-width:500px) {
-    .card-1 {
-        margin-top: 15px;
-    }
-}
 
 
 .card-1 {
     background-color: crimson;
     border-radius: 14px;
     height: 40px;
+
 }
 
 #img_1 {

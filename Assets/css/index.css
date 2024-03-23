@@ -3,23 +3,46 @@ body {
 }
 
 
-
-
-
-
-.clearfix {
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-
+#box_main {
+    align-items: center;
+    margin-top: 150px;
 }
 
 
-.btn {
-    background-color: crimson;
-}
 
 
 #h {
     background-color: #111320;
+}
+
+@media (max-width: 600px) {
+    .col-sm {
+        height: 50%;
+    }
+}
+
+
+@media (max-width:740px) {
+    #box_main {
+        margin-top: 0%;
+
+    }
+}
+
+@media (max-width:500px) {
+    .card-1 {
+        margin-top: 15px;
+    }
+}
+
+
+.card-1 {
+    background-color: crimson;
+    border-radius: 14px;
+    height: 40px;
+}
+
+#img_1 {
+    border-radius: 14px;
+
 }

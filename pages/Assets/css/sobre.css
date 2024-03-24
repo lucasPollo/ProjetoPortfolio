@@ -1,0 +1,51 @@
+body {
+    background-color: #111320;
+    font-family: "Kufam", sans-serif;
+}
+
+
+
+#p_1 {
+    margin-top: 15px;
+}
+
+
+
+#h {
+    background-color: #111320;
+}
+
+
+
+.box_curriculo {
+    background-color: crimson;
+}
+
+
+#img_1 {
+    border-radius: 14px;
+
+}
+
+
+
+#box_main {
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+
+h2 {
+    font-family: "Kufam", sans-serif;
+}
+
+
+
+
+@media (max-width:740px) {
+    #box_main {
+        margin-top: 0%;
+
+    }
+}

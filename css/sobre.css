@@ -15,7 +15,9 @@ body {
     background-color: #111320;
 }
 
-
+#h2_txt {
+    font-family: "Kumar One", serif;
+}
 
 .box_curriculo {
     background-color: crimson;
@@ -46,6 +48,13 @@ h2 {
 @media (max-width:740px) {
     #box_main {
         margin-top: 0%;
+
+    }
+}
+
+@media (max-width:590px) {
+    #txt_1 {
+        margin-top: 14px;
 
     }
 }

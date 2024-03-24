@@ -29,12 +29,21 @@ body {
     }
 }
 
+@media (max-width:680px) {
+    #box_icons {
+        margin-top: 0%;
+        display: flexbox;
+
+    }
+}
+
 
 
 .card-1 {
     background-color: crimson;
     border-radius: 14px;
     height: 40px;
+    margin-top: 20px;
 
 }
 

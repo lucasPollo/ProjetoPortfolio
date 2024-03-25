@@ -42,7 +42,6 @@ body {
 
 @media (max-width:450px) {
     #box_main{
-        display: flex;
         margin-top: 14px;
       
         
@@ -57,4 +56,15 @@ body {
         margin-top: 5px;
 
     }
+}
+
+
+
+.inp_nome, .inp_email, .txtMsg {
+    margin-top: 20px;
+}
+
+
+.txtMsg {
+    margin-bottom: 20px;
 }

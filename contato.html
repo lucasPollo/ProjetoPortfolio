@@ -70,21 +70,42 @@
                 <img src="imgs/iconeInstagram75.png" alt="">
                 <img src="imgs/iconeGithub75.png" alt="">
                 <!----API DE EMAIL-->
-                <form id="box_form" class="box_form text-center" action="https://formsubmit.co/lucasrefinskipollo@gmail.com" method="POST">
+                <!--- <form id="box_form" class="box_form text-center" action="https://formsubmit.co/lucasrefinskipollo@gmail.com" method="POST">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/agradecimento.html">
                     <div class="mb-3 ">
                         <input class="inp_nome" type="text" name="name" placeholder="Seu nome:" required>
                         <input type="email" name="email" placeholder="Email:" required>
-                        <textarea class="textarea" name="message" cols="30" rows="10"
-                            placeholder="Mensagem:" required></textarea>
+                        <textarea class="textarea" name="message" cols="30" rows="10" placeholder="Mensagem:"
+                            required></textarea>
 
                         <input type="hidden" name="_subject" value="Novo contato">
                         <input type="text" name="_honey" style="display:none">
                         <input type="hidden" name="_captcha" value="false">
                     </div>
-                    <a href="agradecimento.html"><button class="btn btn-danger" type="submit">enviar</button></a>
+                    <button class="btn btn-danger" type="submit">enviar</button>
+                </form>-->
+
+                <form id="box_form" class="box_form text-center" action="https://api.staticforms.xyz/submit" method="post">
+                    <!-- Replace with accesKey sent to your email -->
+
+                    <input class="inp_nome" type="text" name="name" placeholder="nome:" required> <!-- Optional -->
+                    <input class="inp_email" type="text" name="email" placeholder="email:" required> <!-- Optional -->
+                    <textarea class="txtMsg" name="message" placeholder="mensagem: "></textarea required > <!-- Optional -->
+                    <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+                    <input type="hidden" name="accessKey" value="b6b9a7dd-db89-4b0d-b1f5-5ad8fe184a34">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/agradecimento.html">
+                    
+                   
+                    <input class="btn btn-danger" type="submit" value="Enviar"/>
+
+                  
                 </form>
+
+
+
+
             </div>
-            
+
 
         </div>
     </div>

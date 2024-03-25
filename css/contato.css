@@ -1,6 +1,7 @@
 body {
     background-color: #111320;
     font-family: "Kufam", sans-serif;
+    position:-ms-page
 }
 
 #h2_txt {
@@ -8,5 +9,41 @@ body {
 }
 
 #box_main {
-    margin-top: 250px;
+    margin-top: 150px;
+}
+
+.box_form {
+    display: grid;
+}
+
+.textarea {
+    display: flex;
+    margin-left: 70px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.inp_nome {
+    background-color: rgb(255, 255, 255);
+    color: #111320;
+    
+    
+}
+
+
+@media (max-width:590px) {
+    .textarea{
+        margin-left: 90px;
+        margin-top: 5px;
+
+    }
+}
+
+
+@media (max-width:400px) {
+    .textarea{
+        margin-left: 50px;
+        margin-top: 5px;
+
+    }
 }

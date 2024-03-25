@@ -10,6 +10,7 @@ body {
 
 #box_main {
     margin-top: 150px;
+    display: block;
 }
 
 .box_form {
@@ -35,6 +36,16 @@ body {
     .textarea{
         margin-left: 90px;
         margin-top: 5px;
+
+    }
+}
+
+@media (max-width:450px) {
+    #box_main{
+        display: flex;
+        margin-top: 14px;
+      
+        
 
     }
 }

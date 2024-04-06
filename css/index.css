@@ -1,6 +1,7 @@
 body {
     background-color: #111320;
     font-family: "Kufam", sans-serif;
+    position: sticky;
 }
 
 
@@ -45,10 +46,12 @@ body {
     }
 }
 
+@media (min-width:680px) {
+    body {
+        margin-bottom: 150px;
 
-
-
-
+    }
+}
 
 .card-1 {
     background-color: crimson;

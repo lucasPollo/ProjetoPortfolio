@@ -29,7 +29,12 @@ body {
 
 }
 
+@media (min-width:680px) {
+    body {
+        margin-bottom: 150px;
 
+    }
+}
 
 #box_main {
     align-items: center;

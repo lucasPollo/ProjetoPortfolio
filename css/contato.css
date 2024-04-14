@@ -1,11 +1,18 @@
+
+/*NavBar*/
+
+#h2_txt {
+    font-family: "Kumar One", serif;
+}
+
+/*Fim*/
+
+/*Body*/
+
 body {
     background-color: #111320;
     font-family: "Kufam", sans-serif;
     position:-ms-page
-}
-
-#h2_txt {
-    font-family: "Kumar One", serif;
 }
 
 #box_main {
@@ -27,44 +34,7 @@ body {
 .inp_nome {
     background-color: rgb(255, 255, 255);
     color: #111320;
-    
-    
 }
-
-
-@media (max-width:590px) {
-    .textarea{
-        margin-left: 90px;
-        margin-top: 5px;
-
-    }
-}
-
-@media (max-width:450px) {
-    #box_main{
-        margin-top: 14px;
-      
-        
-
-    }
-}
-
-@media (min-width:680px) {
-    body {
-        margin-bottom: 150px;
-
-    }
-}
-
-@media (max-width:400px) {
-    .textarea{
-        margin-left: 50px;
-        margin-top: 5px;
-
-    }
-}
-
-
 
 .inp_nome, .inp_email, .txtMsg {
     margin-top: 20px;
@@ -74,3 +44,35 @@ body {
 .txtMsg {
     margin-bottom: 20px;
 }
+
+/*Fim*/
+
+/*Resolucoes*/
+
+@media (max-width:590px) {
+    .textarea{
+        margin-left: 90px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:450px) {
+    #box_main{
+        margin-top: 14px;
+    }
+}
+
+@media (min-width:680px) {
+    body {
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width:400px) {
+    .textarea{
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+}
+
+/*Fim*/

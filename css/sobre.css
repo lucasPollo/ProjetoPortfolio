@@ -1,65 +1,58 @@
+
+/*NavBar*/
+#h2_txt {
+    font-family: "Kumar One", serif;
+}
+
+#h {
+    background-color: #111320;
+}
+/*Fim*/
+
+
+
+/*Body*/
 body {
     background-color: #111320;
     font-family: "Kufam", sans-serif;
 }
 
-
-
 #p_1 {
     margin-top: 15px;
-}
-
-
-
-#h {
-    background-color: #111320;
-}
-
-#h2_txt {
-    font-family: "Kumar One", serif;
 }
 
 .box_curriculo {
     background-color: crimson;
 }
 
-
 #img_1 {
     border-radius: 14px;
-
-}
-
-@media (min-width:680px) {
-    body {
-        margin-bottom: 150px;
-
-    }
 }
 
 #box_main {
     align-items: center;
     margin-top: 150px;
 }
+/*Fim*/
 
 
-
-h2 {
-    font-family: "Kufam", sans-serif;
+/*Resolucao*/
+@media (min-width:680px) {
+    body {
+        margin-bottom: 150px;
+    }
 }
-
-
-
 
 @media (max-width:740px) {
     #box_main {
         margin-top: 0%;
-
     }
 }
 
 @media (max-width:590px) {
     #txt_1 {
         margin-top: 14px;
-
     }
 }
+
+/*Fim*/

@@ -1,17 +1,23 @@
+/*usa estilizao do contato.css*/
+
+/*body*/
 body {
     background-color: #111320;
     font-family: "Kufam", sans-serif;
 }
 
-
 .mensagem {
     margin-top: 300px;
 }
 
+/*Fim*/
+
+
+/*Resolucao*/
 @media (max-width:590px) {
     .mensagem {
-    
         margin-top: 100px;
-
     }
 }
+
+/*Fim*/

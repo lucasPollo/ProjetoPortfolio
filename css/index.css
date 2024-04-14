@@ -1,3 +1,17 @@
+/*NavBar*/
+#h {
+    background-color: #111320;
+}
+
+#h2_txt {
+    font-family: "Kumar One", serif;
+}
+
+/*Fim*/
+
+
+/*Body*/
+
 body {
     background-color: #111320;
     font-family: "Kufam", sans-serif;
@@ -14,10 +28,26 @@ body {
     margin-top: 15px;
 }
 
+.card-1 {
+    background-color: crimson;
+    height: 40px;
+    margin-top: 5px;
+ 
 
-#h {
-    background-color: #111320;
 }
+
+#img_1 {
+    border-radius: 14px;
+
+}
+
+/*Fim*/
+
+
+
+
+
+/*Resolucoes*/
 
 @media (max-width: 600px) {
     .col-sm {
@@ -25,17 +55,11 @@ body {
     }
 }
 
-
 @media (max-width:740px) {
     #box_main {
         margin-top: 0%;
 
     }
-}
-
-
-#h2_txt {
-    font-family: "Kumar One", serif;
 }
 
 @media (max-width:680px) {
@@ -53,17 +77,5 @@ body {
     }
 }
 
-.card-1 {
-    background-color: crimson;
-    height: 40px;
-    margin-top: 5px;
- 
-
-}
-
-#img_1 {
-    border-radius: 14px;
-
-}
-
+/*Fim*/
 

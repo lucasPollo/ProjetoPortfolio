@@ -59,27 +59,28 @@
     <script
         type="text/javascript">function showIt2() { document.getElementById("msg1").style.visibility = "visible"; } setTimeout("showIt2()", 5000); function hiddenIt() { document.getElementById("msg1").style.visibility = "hidden"; } setTimeout("hiddenIt()", 15000); function showIt3() { document.getElementById("msg1").style.visibility = "visible"; } setTimeout("showIt3()", 25000); msg1.onclick = function () { document.getElementById('msg1').style.visibility = "hidden"; }; function alertW() { document.getElementById("alertWapp").style.visibility = "visible"; } setTimeout("alertW()", 15000); </script>
     <!-- fim -->
-
-    <div id="box_main" class="container text-center">
-        <div class="row justify-content-md-center">
-            <div class="col-md-auto">
-                <div class="txt_1">
-                    <h1 class="text-white">contate-me</h1>
-                </div>
-                <a
-                    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=GTvVlcSGMvXsLdsCdxCvSGwPQFcgptwWSXRmSXjDjwNnPdGnLLzkFSFWfqfxNxRMsfKNRrbdFMLzl"><img
-                        src="imgs/iconeGmail75.png" alt="logo gmail"></a>
-                <a href="https://www.linkedin.com/in/lucas-refinski/"><img src="imgs/iconeLinkedin75.png"
-                        alt="logo linkedin"></a>
-                <a href="https://www.instagram.com/refinski.lucas/"><img src="imgs/iconeInstagram75.png"
-                        alt="logo instagram"></a>
-                <a href="https://github.com/lucasPollo"><img src="imgs/iconeGithub75.png" alt="logo github"></a>
-                <form id="box_form" class="box_form text-center" action="https://api.staticforms.xyz/submit"
-                    method="post">
-                    <!-- Replace with accesKey sent to your email -->
-                    <input class="inp_nome" type="text" name="name" placeholder="nome:" required> <!-- Optional -->
-                    <input class="inp_email" type="text" name="email" placeholder="email:" required> <!-- Optional -->
-                    <textarea class="txtMsg" name="message" placeholder="mensagem: "></textarea required > <!-- Optional -->
+    <div class="container">
+        <div id="box_main" class="container text-center">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <div class="txt_1">
+                        <h1 class="text-white">contate-me</h1>
+                    </div>
+                    <a
+                        href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=GTvVlcSGMvXsLdsCdxCvSGwPQFcgptwWSXRmSXjDjwNnPdGnLLzkFSFWfqfxNxRMsfKNRrbdFMLzl"><img
+                            src="imgs/iconeGmail75.png" alt="logo gmail"></a>
+                    <a href="https://www.linkedin.com/in/lucas-refinski/"><img src="imgs/iconeLinkedin75.png"
+                            alt="logo linkedin"></a>
+                    <a href="https://www.instagram.com/refinski.lucas/"><img src="imgs/iconeInstagram75.png"
+                            alt="logo instagram"></a>
+                    <a href="https://github.com/lucasPollo"><img src="imgs/iconeGithub75.png" alt="logo github"></a>
+                    <form id="box_form" class="box_form text-center" action="https://api.staticforms.xyz/submit"
+                        method="post">
+                        <!-- Replace with accesKey sent to your email -->
+                        <input class="inp_nome" type="text" name="name" placeholder="nome:" required> <!-- Optional -->
+                        <input class="inp_email" type="text" name="email" placeholder="email:" required>
+                        <!-- Optional -->
+                        <textarea class="txtMsg" name="message" placeholder="mensagem: "></textarea required > <!-- Optional -->
                     <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
                     <input type="hidden" name="accessKey" value="b6b9a7dd-db89-4b0d-b1f5-5ad8fe184a34">
                     <input type="hidden" name="redirectTo" value="https://lucaspollo.github.io/ProjetoPortfolio/agradecimento.html">
@@ -88,5 +89,6 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>
